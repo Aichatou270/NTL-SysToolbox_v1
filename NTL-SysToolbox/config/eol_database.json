@@ -1,0 +1,113 @@
+{
+  "note": "Source : endoflife.date - Mise a jour juin 2026",
+  "os_versions": [
+    {
+      "os": "Windows Server",
+      "version": "2022",
+      "eol_date": "2031-10-14",
+      "status": "SUPPORTE"
+    },
+    {
+      "os": "Windows Server",
+      "version": "2019",
+      "eol_date": "2029-01-09",
+      "status": "SUPPORTE"
+    },
+    {
+      "os": "Windows Server",
+      "version": "2016",
+      "eol_date": "2027-01-12",
+      "status": "SUPPORTE"
+    },
+    {
+      "os": "Windows Server",
+      "version": "2012 R2",
+      "eol_date": "2023-10-10",
+      "status": "EOL"
+    },
+    {
+      "os": "Windows Server",
+      "version": "2008 R2",
+      "eol_date": "2020-01-14",
+      "status": "EOL"
+    },
+    {
+      "os": "Windows",
+      "version": "11",
+      "eol_date": "2031-10-14",
+      "status": "SUPPORTE"
+    },
+    {
+      "os": "Windows",
+      "version": "10",
+      "eol_date": "2025-10-14",
+      "status": "EOL"
+    },
+    {
+      "os": "Windows",
+      "version": "7",
+      "eol_date": "2020-01-14",
+      "status": "EOL"
+    },
+    {
+      "os": "Ubuntu",
+      "version": "22.04",
+      "eol_date": "2027-04-01",
+      "status": "SUPPORTE"
+    },
+    {
+      "os": "Ubuntu",
+      "version": "20.04",
+      "eol_date": "2025-04-02",
+      "status": "EOL"
+    },
+    {
+      "os": "Ubuntu",
+      "version": "18.04",
+      "eol_date": "2023-04-02",
+      "status": "EOL"
+    },
+    {
+      "os": "CentOS",
+      "version": "7",
+      "eol_date": "2024-06-30",
+      "status": "EOL"
+    },
+    {
+      "os": "CentOS",
+      "version": "8",
+      "eol_date": "2021-12-31",
+      "status": "EOL"
+    },
+    {
+      "os": "MariaDB",
+      "version": "10.6",
+      "eol_date": "2026-07-06",
+      "status": "BIENTOT_EOL"
+    },
+    {
+      "os": "MariaDB",
+      "version": "10.11",
+      "eol_date": "2028-02-16",
+      "status": "SUPPORTE"
+    },
+    {
+      "os": "VMware ESXi",
+      "version": "6.5",
+      "eol_date": "2022-10-15",
+      "status": "EOL"
+    },
+    {
+      "os": "VMware ESXi",
+      "version": "7.0",
+      "eol_date": "2025-04-02",
+      "status": "EOL"
+    },
+    {
+      "os": "VMware ESXi",
+      "version": "8.0",
+      "eol_date": "2029-10-15",
+      "status": "SUPPORTE"
+    }
+  ]
+}

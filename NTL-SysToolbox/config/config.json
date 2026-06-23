@@ -1,0 +1,52 @@
+{
+  "app_name": "NTL-SysToolbox",
+  "version": "1.0.0",
+  "output_dir": "outputs",
+
+  "servers": {
+    "dc01": {
+      "ip": "192.168.10.10",
+      "os": "windows",
+      "role": "Controleur de domaine principal (AD/DNS)",
+      "connection": "winrm",
+      "username": "Administrateur"
+    },
+    "dc02": {
+      "ip": "192.168.10.11",
+      "os": "windows",
+      "role": "Controleur de domaine secondaire (AD/DNS)",
+      "connection": "winrm",
+      "username": "Administrateur"
+    },
+    "wms-db": {
+      "ip": "192.168.10.21",
+      "os": "linux",
+      "role": "Base de donnees WMS (MariaDB/MySQL)",
+      "connection": "ssh",
+      "username": "wms-db"
+    },
+    "ipbx-vm": {
+      "ip": "192.168.10.40",
+      "os": "linux",
+      "role": "Serveur IPBX",
+      "connection": "ssh",
+      "username": "ntladmin"
+    }
+  },
+
+  "mysql": {
+    "host": "192.168.10.21",
+    "port": 3306,
+    "database": "wms_db",
+    "username": "wms-db"
+  },
+
+  "audit": {
+    "scan_ranges": [
+      "192.168.10.0/24"
+    ],
+    "excluded_ips": [],
+    "quick_ports": [22, 80, 443, 3389, 5985, 3306],
+    "timeout": 1
+  }
+}

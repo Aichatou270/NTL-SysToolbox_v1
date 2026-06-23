@@ -1,0 +1,64 @@
+{
+  "DC01": {
+    "timestamp": "2026-06-22T13:34:25.454667",
+    "target": "192.168.10.10",
+    "os_type": "Windows",
+    "status": "OK",
+    "hostname": "DC01",
+    "os_version": "Microsoft Windows Server 2022 Datacenter Evaluation - Build 20348",
+    "uptime": "Demarrage: 22/06/2026 12:45 (1h48min)",
+    "cpu_usage_percent": "4%",
+    "ram_info": "Total: 4GB | Utilise: 1GB | 25%",
+    "disk_C": "Total: 63.4GB | Utilise: 11.2GB | 17.7%",
+    "ad_dns": {
+      "timestamp": "2026-06-22T13:35:00.928505",
+      "target": "192.168.10.10",
+      "service": "AD/DNS",
+      "status": "OK",
+      "ad_service_status": "Running",
+      "dns_service_status": "Running",
+      "domain_name": "ntl.local",
+      "active_users_count": "5",
+      "domain_controllers": "DC01, DC02",
+      "dns_resolution_test": "OK"
+    }
+  },
+  "DC02": {
+    "timestamp": "2026-06-22T13:35:29.877344",
+    "target": "192.168.10.11",
+    "os_type": "Windows",
+    "status": "OK",
+    "hostname": "DC02",
+    "os_version": "Microsoft Windows Server 2022 Datacenter Evaluation - Build 20348",
+    "uptime": "Demarrage: 22/06/2026 12:46 (1h48min)",
+    "cpu_usage_percent": "1.5%",
+    "ram_info": "Total: 4GB | Utilise: 1GB | 25%",
+    "disk_C": "Total: 63.3GB | Utilise: 10.2GB | 16.1%",
+    "ad_dns": {
+      "timestamp": "2026-06-22T13:35:48.779281",
+      "target": "192.168.10.11",
+      "service": "AD/DNS",
+      "status": "OK",
+      "ad_service_status": "Running",
+      "dns_service_status": "Running",
+      "domain_name": "ntl.local",
+      "active_users_count": "5",
+      "domain_controllers": "DC02, DC01",
+      "dns_resolution_test": "OK"
+    }
+  },
+  "WMS-DB": {
+    "timestamp": "2026-06-22T13:36:12.003546",
+    "target": "192.168.10.21",
+    "os_type": "Linux",
+    "status": "ERREUR",
+    "error": "timed out",
+    "mysql": {
+      "timestamp": "2026-06-22T13:36:37.902854",
+      "target": "192.168.10.21",
+      "service": "MariaDB/MySQL",
+      "status": "ERREUR",
+      "error": "timed out"
+    }
+  }
+}

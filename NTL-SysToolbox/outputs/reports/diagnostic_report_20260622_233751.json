@@ -1,0 +1,75 @@
+{
+  "DC01": {
+    "timestamp": "2026-06-22T23:37:57.055593",
+    "target": "192.168.10.10",
+    "os_type": "Windows",
+    "status": "OK",
+    "hostname": "DC01",
+    "os_version": "Microsoft Windows Server 2022 Datacenter Evaluation - Build 20348",
+    "uptime": "Demarrage: 22/06/2026 23:18 (0h19min)",
+    "cpu_usage_percent": "3.5%",
+    "ram_info": "Total: 4GB | Utilise: 2GB | 50%",
+    "disk_C": "Total: 63.3GB | Utilise: 11.2GB | 17.7%",
+    "ad_dns": {
+      "timestamp": "2026-06-22T23:38:21.426684",
+      "target": "192.168.10.10",
+      "service": "AD/DNS",
+      "status": "OK",
+      "ad_service_status": "Running",
+      "dns_service_status": "Running",
+      "domain_name": "ntl.local",
+      "active_users_count": "5",
+      "domain_controllers": "DC01, DC02",
+      "dns_resolution_test": "OK"
+    }
+  },
+  "DC02": {
+    "timestamp": "2026-06-22T23:38:43.311082",
+    "target": "192.168.10.11",
+    "os_type": "Windows",
+    "status": "OK",
+    "hostname": "DC02",
+    "os_version": "Microsoft Windows Server 2022 Datacenter Evaluation - Build 20348",
+    "uptime": "Demarrage: 22/06/2026 23:18 (0h20min)",
+    "cpu_usage_percent": "7.5%",
+    "ram_info": "Total: 4GB | Utilise: 1GB | 25%",
+    "disk_C": "Total: 63.4GB | Utilise: 10.3GB | 16.2%",
+    "ad_dns": {
+      "timestamp": "2026-06-22T23:39:06.366381",
+      "target": "192.168.10.11",
+      "service": "AD/DNS",
+      "status": "OK",
+      "ad_service_status": "Running",
+      "dns_service_status": "Running",
+      "domain_name": "ntl.local",
+      "active_users_count": "5",
+      "domain_controllers": "DC02, DC01",
+      "dns_resolution_test": "OK"
+    }
+  },
+  "WMS-DB": {
+    "timestamp": "2026-06-22T23:39:36.570180",
+    "target": "192.168.10.21",
+    "os_type": "Linux",
+    "status": "OK",
+    "hostname": "wms-db",
+    "os_version": "Ubuntu 22.04.5 LTS",
+    "uptime": "up 20 minutes",
+    "cpu_load_1min": "0.08",
+    "ram_total_mb": 3875,
+    "ram_used_mb": 357,
+    "ram_usage_percent": 9.2,
+    "disk_total": "30G",
+    "disk_used": "8,2G",
+    "disk_usage_percent": "30%",
+    "mysql": {
+      "timestamp": "2026-06-22T23:39:52.243244",
+      "target": "192.168.10.21",
+      "service": "MariaDB/MySQL",
+      "status": "OK",
+      "service_active": "active",
+      "version": "",
+      "databases": []
+    }
+  }
+}

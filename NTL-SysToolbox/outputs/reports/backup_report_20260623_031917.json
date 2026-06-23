@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-06-23T03:19:17.651448",
+  "type": "SQL_DUMP",
+  "source_host": "192.168.10.21",
+  "database": "wms_db",
+  "output_file": "outputs/reports\\backup_wms_20260623_031917.sql",
+  "status": "OK",
+  "file_size_bytes": 2938,
+  "file_size_human": "2.9 Ko"
+}

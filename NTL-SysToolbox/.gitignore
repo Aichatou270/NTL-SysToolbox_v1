@@ -1,0 +1,24 @@
+# Environnement virtuel Python
+.venv/
+venv/
+env/
+
+# Fichiers compilés Python (ne pas versionner)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sorties générées par l'outil (ne pas versionner les données sensibles)
+outputs/reports/*.sql
+outputs/reports/*.csv
+outputs/logs/*.log
+
+# Fichier de secrets (ne JAMAIS versionner)
+.env
+secrets.json
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini

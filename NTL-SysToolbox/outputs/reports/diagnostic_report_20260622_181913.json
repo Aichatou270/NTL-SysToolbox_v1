@@ -1,0 +1,64 @@
+{
+  "DC01": {
+    "timestamp": "2026-06-22T18:19:23.542704",
+    "target": "192.168.10.10",
+    "os_type": "Windows",
+    "status": "OK",
+    "hostname": "DC01",
+    "os_version": "Microsoft Windows Server 2022 Datacenter Evaluation - Build 20348",
+    "uptime": "Demarrage: 22/06/2026 17:56 (0h22min)",
+    "cpu_usage_percent": "3%",
+    "ram_info": "Total: 4GB | Utilise: 1GB | 25%",
+    "disk_C": "Total: 63.3GB | Utilise: 11.2GB | 17.7%",
+    "ad_dns": {
+      "timestamp": "2026-06-22T18:19:48.623184",
+      "target": "192.168.10.10",
+      "service": "AD/DNS",
+      "status": "OK",
+      "ad_service_status": "Running",
+      "dns_service_status": "Running",
+      "domain_name": "ntl.local",
+      "active_users_count": "5",
+      "domain_controllers": "DC01, DC02",
+      "dns_resolution_test": "OK"
+    }
+  },
+  "DC02": {
+    "timestamp": "2026-06-22T18:20:17.292008",
+    "target": "192.168.10.11",
+    "os_type": "Windows",
+    "status": "OK",
+    "hostname": "DC02",
+    "os_version": "Microsoft Windows Server 2022 Datacenter Evaluation - Build 20348",
+    "uptime": "Demarrage: 22/06/2026 17:56 (0h23min)",
+    "cpu_usage_percent": "4%",
+    "ram_info": "Total: 4GB | Utilise: 1GB | 25%",
+    "disk_C": "Total: 63.4GB | Utilise: 10.3GB | 16.2%",
+    "ad_dns": {
+      "timestamp": "2026-06-22T18:20:51.381932",
+      "target": "192.168.10.11",
+      "service": "AD/DNS",
+      "status": "OK",
+      "ad_service_status": "Running",
+      "dns_service_status": "Running",
+      "domain_name": "ntl.local",
+      "active_users_count": "5",
+      "domain_controllers": "DC02, DC01",
+      "dns_resolution_test": "OK"
+    }
+  },
+  "WMS-DB": {
+    "timestamp": "2026-06-22T18:21:27.565648",
+    "target": "192.168.10.21",
+    "os_type": "Linux",
+    "status": "ERREUR",
+    "error": "Authentication failed.",
+    "mysql": {
+      "timestamp": "2026-06-22T18:22:09.965702",
+      "target": "192.168.10.21",
+      "service": "MariaDB/MySQL",
+      "status": "ERREUR",
+      "error": "Authentication failed."
+    }
+  }
+}

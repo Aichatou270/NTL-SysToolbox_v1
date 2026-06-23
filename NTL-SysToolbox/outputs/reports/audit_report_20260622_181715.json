@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-06-22T18:18:09.423185",
+  "network_scanned": "192.168.10.0/24",
+  "statistics": {
+    "total_hosts": 6,
+    "eol_count": 1,
+    "bientot_eol_count": 0,
+    "supported_count": 4,
+    "unknown_count": 1
+  },
+  "hosts": [
+    {
+      "ip": "192.168.10.10",
+      "os_detected": "Windows",
+      "open_ports": [
+        5985,
+        389,
+        53
+      ],
+      "services": [
+        "WinRM HTTP (Windows)",
+        "LDAP (Active Directory)",
+        "DNS"
+      ],
+      "active": true,
+      "name": "DC01",
+      "role": "Controleur de domaine principal",
+      "os_name": "Windows Server",
+      "os_version": "2019",
+      "eol_date": "2029-01-09",
+      "eol_status": "SUPPORTE"
+    },
+    {
+      "ip": "192.168.10.11",
+      "os_detected": "Windows",
+      "open_ports": [
+        5985,
+        389,
+        53
+      ],
+      "services": [
+        "WinRM HTTP (Windows)",
+        "LDAP (Active Directory)",
+        "DNS"
+      ],
+      "active": true,
+      "name": "DC02",
+      "role": "Controleur de domaine secondaire",
+      "os_name": "Windows Server",
+      "os_version": "2019",
+      "eol_date": "2029-01-09",
+      "eol_status": "SUPPORTE"
+    },
+    {
+      "ip": "192.168.10.21",
+      "os_detected": "Linux",
+      "open_ports": [
+        22
+      ],
+      "services": [
+        "SSH (Linux/Unix)"
+      ],
+      "active": true,
+      "name": "WMS-DB",
+      "role": "Base MySQL WMS",
+      "os_name": "Ubuntu",
+      "os_version": "22.04",
+      "eol_date": "2027-04-01",
+      "eol_status": "SUPPORTE"
+    },
+    {
+      "ip": "192.168.10.40",
+      "os_detected": "Linux",
+      "open_ports": [
+        22
+      ],
+      "services": [
+        "SSH (Linux/Unix)"
+      ],
+      "active": true,
+      "name": "IPBX-VM",
+      "role": "Serveur IPBX (telephonie)",
+      "os_name": "Ubuntu",
+      "os_version": "22.04",
+      "eol_date": "2027-04-01",
+      "eol_status": "SUPPORTE"
+    },
+    {
+      "ip": "192.168.10.1",
+      "name": "Hyperviseur",
+      "role": "Dell PowerEdge R630 - VMware ESXi",
+      "os": "VMware ESXi",
+      "version": "6.5",
+      "source": "inventaire_manuel",
+      "eol_status": "EOL",
+      "eol_date": "2022-10-15",
+      "active": true,
+      "open_ports": [],
+      "os_detected": "VMware ESXi"
+    },
+    {
+      "ip": "192.168.10.254",
+      "name": "FW-Siege",
+      "role": "Pare-feu perimetre - Fortinet FortiGate 80D",
+      "os": "FortiOS",
+      "version": "Inconnu",
+      "source": "inventaire_manuel",
+      "eol_status": "NON_RENSEIGNE",
+      "eol_date": "Inconnu",
+      "active": true,
+      "open_ports": [],
+      "os_detected": "FortiOS"
+    }
+  ]
+}

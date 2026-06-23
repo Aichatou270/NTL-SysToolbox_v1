@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-06-23T01:04:36.108279",
+  "type": "SQL_DUMP",
+  "source_host": "192.168.10.21",
+  "database": "wms_db",
+  "output_file": "outputs/reports\\backup_wms_20260623_010436.sql",
+  "status": "AVERTISSEMENT",
+  "warning": "Dump vide ou trop petit - vérifier les droits MySQL"
+}
